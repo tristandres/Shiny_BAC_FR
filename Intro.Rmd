@@ -1,0 +1,42 @@
+---
+title: "Intro"
+author: "Tristan Dresbach"
+date: "October 29, 2018"
+output: html_document
+---
+
+##   
+## Context:
+The French Baccalaureat is the final exam all French students must pass to graduate from high school. Not only is it necessary to graduate, but a student's performance on the Bac is the American equivalent to one's performance on the ACT/SAT for college applications.
+
+As I am myself a product of the French Lycee system and more specifically the BAC S, I was hoping to answer questions I always had regarding the test as well as provide insights to future BAC takers.
+
+To start off, there are 3 general Baccalaureat sections offered, which will be investigated in this app:
+
+S: Scientific
+
+ES: Economic & Social
+
+L: Literary
+
+I sought to create a general platform that french students could use to compare the performance of their school/departement against that of other students. This is something my friends and I did when we received our school's results. Unfortunately, we were only able to compare with other students we knew had data points to compare against which is the main problem I tried solving with this dashboard. 
+
+Questions I wanted to answer:
+
+1) With S (Scientific) being the section geared towards hard sciences, I assumed that on average more students would gravitate towards ES (economic & social) which is less quantitative.
+
+2) In opposition to 1), there is a perpetuating stereotype that "smart" students choose S regardless of whether or not they are interested in science, which woulc contradict 1) and push more students towards S.
+
+3) L was seen as having some of the most talented as well as lazy students, meaning distributions of their passing rates should be larger.
+
+4) Out of 210 students in my graduating class, all 210 passed their Baccalaureat. With the option of "catch-ups" for students with grades between [8;10] out of 20, I expected passing rates to be above 95% in all cases.
+
+5) What are the strongest performing and weakest performing Lycees in France?
+
+## Data:
+
+I obtained the Lycee-level data on [the French Government's website](https://www.data.gouv.fr/fr/datasets/). In terms of data manipulation and cleaning, most of my work revolved around translating column names and seperating merged metric categories.
+
+## About myself:
+
+For any questions or inquiries please contact me via my [LinkedIn profile](https://www.linkedin.com/in/tristandresbach/)
